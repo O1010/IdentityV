@@ -1,3 +1,3 @@
 $(function(){
-    $("#sidebar").load("sidebar.html");
+    $("#sidebar").load("../sidebar.html");
   });
