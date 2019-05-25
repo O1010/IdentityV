@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background: #945856;
+    background:repeating-linear-gradient(45deg, #945856 0, #945856 10px, #b4976f 10px, #b4976f 15px);
     padding: 24px 0 8px 0;
     position: fixed;
     justify-content: space-between;
@@ -44,7 +44,7 @@ p{
 }
 
 .inner{
-    padding: 80px 60px 0 60px;
+    padding: 80px 240px 0 120px;
 }
 
 .logo{
@@ -92,16 +92,19 @@ p{
     padding: 6px 0 6px 24px;
 }
 
-
 /*sidebar*/
-#sidebar > .inner {
+
+#sidebar a{
+    color: #e9d3b0;
+}
+#sidebar .inner {
     padding: 20px;
     width: 240px;
 }
 #sidebar{
     width: 240px;
     background-color: #436571;
-    position: relative;   
+    position: sticky;  
 }
 
 /*Container*/
